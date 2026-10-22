@@ -1,0 +1,1161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vastu Bhoomi Developers | Plots, Homes &amp; Construction in India</title>
+<meta name="description" content="Vastu Bhoomi Developers deals in residential plots, homes and commercial property, with construction services. Browse properties and enquire online.">
+<meta name="theme-color" content="#173F35">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Vastu Bhoomi Developers">
+<meta property="og:title" content="Vastu Bhoomi Developers | Plots, Homes &amp; Construction in India">
+<meta property="og:description" content="Vastu Bhoomi Developers deals in residential plots, homes and commercial property, with construction services. Browse properties and enquire online.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23173F35'/%3E%3Crect x='6' y='6' width='52' height='52' fill='none' stroke='%23B89A5A' stroke-width='2'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Georgia,serif' font-size='26' font-weight='700' fill='%23F7F4EC'%3EVB%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Vastu Bhoomi Developers — design system */
+:root{
+  --green:#173F35; --green-2:#1f5245; --ivory:#F7F4EC; --charcoal:#222522; --gold:#B89A5A; --white:#fff;
+  --line:rgba(34,37,34,.12); --muted:#5d625d;
+  --serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;
+  --sans:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --shadow:0 1px 2px rgba(23,63,53,.06),0 12px 32px -12px rgba(23,63,53,.18);
+  --r:6px; --wrap:1200px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--charcoal);background:var(--ivory);line-height:1.65;font-size:16px;-webkit-font-smoothing:antialiased}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 24px}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:600;line-height:1.12;letter-spacing:-.01em;color:var(--green)}
+h1{font-size:clamp(2.6rem,6vw,4.6rem)} h2{font-size:clamp(2rem,3.6vw,3rem)} h3{font-size:1.5rem} h4{font-size:1.2rem}
+p{color:var(--muted)}
+.eyebrow{font:600 .75rem/1 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--gold);display:inline-block;margin-bottom:14px}
+.lead{font-size:1.125rem;max-width:60ch}
+section{padding:96px 0}
+.section-head{max-width:680px;margin-bottom:48px}
+.section-head p{margin-top:14px}
+.center{text-align:center;margin-left:auto;margin-right:auto}
+.dark{background:var(--green);color:var(--ivory)} .dark h2,.dark h3,.dark h4{color:var(--ivory)} .dark p{color:rgba(247,244,236,.78)}
+.white{background:var(--white)}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:600 .9rem/1 var(--sans);letter-spacing:.04em;padding:16px 28px;border-radius:var(--r);border:1px solid transparent;cursor:pointer;transition:background .25s,color .25s,border-color .25s,transform .25s}
+.btn:hover{transform:translateY(-1px)}
+.btn-gold{background:var(--gold);color:#1b1d1b}.btn-gold:hover{background:#c7aa6c}
+.btn-green{background:var(--green);color:var(--ivory)}.btn-green:hover{background:var(--green-2)}
+.btn-ghost{border-color:rgba(247,244,236,.5);color:var(--ivory)}.btn-ghost:hover{background:rgba(247,244,236,.1)}
+.btn-line{border-color:var(--green);color:var(--green)}.btn-line:hover{background:var(--green);color:var(--ivory)}
+.btn-sm{padding:12px 20px;font-size:.82rem}
+.link{font-weight:600;color:var(--green);border-bottom:1px solid var(--gold);padding-bottom:2px}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+
+/* header */
+.site-header{position:sticky;top:0;z-index:50;background:rgba(247,244,236,.94);backdrop-filter:blur(10px);border-bottom:1px solid transparent;transition:border-color .3s,box-shadow .3s}
+.site-header.scrolled{border-color:var(--line);box-shadow:0 6px 24px -16px rgba(0,0,0,.25)}
+.nav{display:flex;align-items:center;gap:32px;height:78px}
+.brand{display:flex;align-items:center;gap:12px;margin-right:auto}
+.brand-mark{width:42px;height:42px;border:1.5px solid var(--gold);display:grid;place-items:center;font:700 1.15rem var(--serif);color:var(--green);letter-spacing:.04em}
+.brand-text{display:flex;flex-direction:column;line-height:1}
+.brand-text b{font:700 1.35rem var(--serif);color:var(--green)}
+.brand-text small{font:600 .62rem var(--sans);letter-spacing:.34em;text-transform:uppercase;color:var(--gold);margin-top:4px}
+.nav nav ul{display:flex;gap:28px}
+.nav nav a{font-size:.9rem;font-weight:500;padding:8px 0;position:relative}
+.nav nav a::after{content:"";position:absolute;left:0;right:100%;bottom:2px;height:1.5px;background:var(--gold);transition:right .3s}
+.nav nav a:hover::after,.nav nav a.active::after{right:0}
+.burger{display:none;background:none;border:0;width:44px;height:44px;cursor:pointer}
+.burger span{display:block;width:22px;height:2px;background:var(--green);margin:5px auto;transition:.3s}
+@media(max-width:980px){
+  .burger{display:block}
+  .nav .btn{display:none}
+  .nav nav{position:absolute;top:78px;left:0;right:0;background:var(--ivory);border-bottom:1px solid var(--line);max-height:0;overflow:hidden;transition:max-height .35s}
+  .nav nav.open{max-height:520px}
+  .nav nav ul{flex-direction:column;gap:0;padding:8px 24px 24px}
+  .nav nav a{display:block;padding:14px 0;border-bottom:1px solid var(--line)}
+  .nav nav a::after{display:none}
+}
+
+/* hero */
+.hero{position:relative;background:var(--green);color:var(--ivory);padding:0;overflow:hidden;min-height:min(86vh,780px);display:flex;align-items:center}
+.hero-art{position:absolute;inset:0}
+.hero-art svg{width:100%;height:100%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(23,63,53,.94) 0%,rgba(23,63,53,.7) 45%,rgba(23,63,53,.15) 100%)}
+.hero .wrap{position:relative;z-index:2;padding-top:90px;padding-bottom:150px}
+.hero h1{color:var(--ivory);max-width:14ch}
+.hero h1 em{font-style:italic;color:var(--gold)}
+.hero p{color:rgba(247,244,236,.82);max-width:52ch;margin:24px 0 36px;font-size:1.15rem}
+.hero .actions{display:flex;gap:14px;flex-wrap:wrap}
+.search-card{position:relative;z-index:5;margin:-70px auto 0;background:var(--white);box-shadow:var(--shadow);border-radius:var(--r);padding:22px;display:grid;grid-template-columns:1.2fr 1fr 1fr auto;gap:14px;align-items:end;border-top:3px solid var(--gold)}
+.page-hero{background:var(--green);padding:88px 0 72px;position:relative;overflow:hidden}
+.page-hero h1{color:var(--ivory);font-size:clamp(2.3rem,5vw,3.8rem)}
+.page-hero p{color:rgba(247,244,236,.8);margin-top:16px;max-width:60ch}
+.page-hero::after{content:"";position:absolute;right:-80px;top:-80px;width:360px;height:360px;border:1px solid rgba(184,154,90,.35);border-radius:50%}
+.crumbs{font-size:.8rem;color:rgba(247,244,236,.6);margin-bottom:18px}.crumbs a:hover{color:var(--gold)}
+@media(max-width:880px){.search-card{grid-template-columns:1fr 1fr;margin-top:-50px}.search-card .btn{grid-column:1/-1}.hero .wrap{padding-bottom:110px}}
+@media(max-width:520px){.search-card{grid-template-columns:1fr}}
+
+/* forms */
+.field{display:flex;flex-direction:column;gap:6px}
+.field label{font:600 .72rem var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--green)}
+input,select,textarea{font:inherit;font-size:.95rem;color:var(--charcoal);background:var(--white);border:1px solid var(--line);border-radius:var(--r);padding:13px 14px;width:100%;transition:border-color .2s,box-shadow .2s}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(184,154,90,.2)}
+textarea{min-height:110px;resize:vertical}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.form-grid .full{grid-column:1/-1}
+@media(max-width:600px){.form-grid{grid-template-columns:1fr}}
+.hp{position:absolute!important;left:-9999px;height:0;width:0;opacity:0}
+.form-card{background:var(--white);border:1px solid var(--line);border-radius:var(--r);padding:36px;box-shadow:var(--shadow)}
+.form-card h3{margin-bottom:6px}.form-card>p{margin-bottom:24px}
+.err{color:#9b2c2c;font-size:.8rem;min-height:1em}
+.result{display:none;margin-top:24px;border:1px solid var(--gold);background:var(--ivory);border-radius:var(--r);padding:22px}
+.result.show{display:block}
+.result pre{white-space:pre-wrap;font:.85rem/1.6 var(--sans);color:var(--charcoal);background:var(--white);padding:14px;border-radius:var(--r);border:1px solid var(--line);margin:12px 0}
+.result .row{display:flex;gap:10px;flex-wrap:wrap}
+.note{font-size:.8rem;color:var(--muted);margin-top:12px}
+
+/* cards */
+.grid{display:grid;gap:28px}
+.g3{grid-template-columns:repeat(3,1fr)}.g2{grid-template-columns:repeat(2,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+@media(max-width:980px){.g3,.g4{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:640px){.g3,.g4,.g2{grid-template-columns:1fr}}
+.prop{background:var(--white);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;transition:transform .35s,box-shadow .35s;display:flex;flex-direction:column}
+.prop:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.thumb{display:block;position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--green)}
+.thumb svg{width:100%;height:100%;transition:transform .6s}.prop:hover .thumb svg{transform:scale(1.04)}
+.thumb .tag{position:absolute;left:14px;top:14px;background:var(--ivory);color:var(--green);font:600 .68rem var(--sans);letter-spacing:.14em;text-transform:uppercase;padding:6px 10px;border-radius:3px}
+.thumb .sample{position:absolute;right:14px;top:14px;background:rgba(34,37,34,.78);color:#fff;font:600 .62rem var(--sans);letter-spacing:.12em;text-transform:uppercase;padding:6px 9px;border-radius:3px}
+.prop .body{padding:22px 24px 26px;display:flex;flex-direction:column;gap:6px;flex:1}
+.price{font:700 1.7rem var(--serif);color:var(--green)}
+.prop h3{font-size:1.3rem}
+.loc{font-size:.88rem}
+.meta{display:flex;gap:16px;flex-wrap:wrap;padding:12px 0;margin:8px 0 6px;border-top:1px solid var(--line);font-size:.82rem;color:var(--muted)}
+.meta b{color:var(--charcoal);font-weight:600}
+.prop .link{margin-top:auto;align-self:flex-start}
+.card{background:var(--white);border:1px solid var(--line);border-radius:var(--r);padding:32px}
+.icon{width:46px;height:46px;border:1px solid var(--gold);display:grid;place-items:center;margin-bottom:20px;color:var(--gold)}
+.icon svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.5}
+.dark .card{background:rgba(255,255,255,.05);border-color:rgba(247,244,236,.14)}
+.card h3,.card h4{margin-bottom:10px}
+
+/* split, steps, lists */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+@media(max-width:880px){.split{grid-template-columns:1fr;gap:40px}section{padding:72px 0}}
+.art-frame{aspect-ratio:5/4;background:var(--green);border-radius:var(--r);overflow:hidden;position:relative;box-shadow:var(--shadow)}
+.art-frame svg{width:100%;height:100%}
+.art-frame::after{content:"";position:absolute;inset:12px;border:1px solid rgba(184,154,90,.55);pointer-events:none}
+.steps{counter-reset:s;display:grid;gap:0}
+.step{display:grid;grid-template-columns:64px 1fr;gap:18px;padding:24px 0;border-top:1px solid var(--line)}
+.dark .step{border-color:rgba(247,244,236,.16)}
+.step::before{counter-increment:s;content:counter(s,decimal-leading-zero);font:600 2rem var(--serif);color:var(--gold)}
+.step h4{margin-bottom:4px}
+.ticks li{position:relative;padding:9px 0 9px 30px;border-bottom:1px solid var(--line);color:var(--charcoal)}
+.ticks li::before{content:"";position:absolute;left:2px;top:17px;width:12px;height:6px;border-left:2px solid var(--gold);border-bottom:2px solid var(--gold);transform:rotate(-45deg)}
+.dark .ticks li{color:var(--ivory);border-color:rgba(247,244,236,.14)}
+.cta-band{background:var(--green);text-align:center;padding:84px 0;position:relative;overflow:hidden}
+.cta-band h2{color:var(--ivory);max-width:20ch;margin:0 auto 18px}
+.cta-band p{color:rgba(247,244,236,.8);max-width:52ch;margin:0 auto 32px}
+.cta-band .actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+
+/* listing */
+.toolbar{background:var(--white);border:1px solid var(--line);border-radius:var(--r);padding:20px;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:14px;margin-bottom:28px;box-shadow:var(--shadow)}
+@media(max-width:880px){.toolbar{grid-template-columns:1fr 1fr}}@media(max-width:520px){.toolbar{grid-template-columns:1fr}}
+.count{margin-bottom:20px;font-size:.9rem}
+.empty{padding:56px 24px;text-align:center;background:var(--white);border:1px dashed var(--line);border-radius:var(--r)}
+.detail{display:grid;grid-template-columns:1.6fr 1fr;gap:48px;align-items:start}
+@media(max-width:980px){.detail{grid-template-columns:1fr}}
+.detail .art-frame{aspect-ratio:16/10}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin:28px 0}
+.facts div{background:var(--white);padding:16px 18px}
+.facts small{display:block;font:600 .66rem var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.facts b{font-weight:600;color:var(--charcoal)}
+@media(max-width:560px){.facts{grid-template-columns:repeat(2,1fr)}}
+.sticky{position:sticky;top:100px}
+.emi-out{margin-top:20px;padding:20px;background:var(--green);color:var(--ivory);border-radius:var(--r)}
+.emi-out b{display:block;font:700 2.2rem var(--serif);color:var(--gold)}
+.emi-out span{font-size:.85rem;color:rgba(247,244,236,.75)}
+.banner{background:#fff8e6;border:1px solid #e7d6a3;color:#6b5a22;padding:12px 16px;border-radius:var(--r);font-size:.85rem;margin-bottom:24px}
+
+/* footer */
+.site-footer{background:var(--charcoal);color:rgba(247,244,236,.72);padding:72px 0 28px}
+.foot{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:40px;padding-bottom:48px;border-bottom:1px solid rgba(247,244,236,.14)}
+@media(max-width:880px){.foot{grid-template-columns:1fr 1fr}}@media(max-width:520px){.foot{grid-template-columns:1fr}}
+.site-footer h5{font:600 .72rem var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:18px}
+.site-footer li{margin-bottom:10px;font-size:.92rem}.site-footer a:hover{color:var(--gold)}
+.site-footer .brand-text b{color:var(--ivory)}.site-footer .brand-mark{color:var(--ivory)}
+.legal{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:24px;font-size:.8rem}
+.wa-fab{position:fixed;right:20px;bottom:20px;z-index:60;background:#1f7a4d;color:#fff;border-radius:50px;padding:13px 20px;font:600 .85rem var(--sans);box-shadow:0 10px 28px -8px rgba(0,0,0,.4)}
+
+/* faq */
+.faq details{border-top:1px solid var(--line);padding:20px 0}
+.faq details:last-child{border-bottom:1px solid var(--line)}
+.faq summary{cursor:pointer;font:600 1.3rem var(--serif);color:var(--green);list-style:none;display:flex;justify-content:space-between;gap:16px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--gold);font-size:1.6rem;line-height:1}
+.faq details[open] summary::after{content:"–"}
+.faq details p{margin-top:12px;max-width:70ch}
+.pill{display:inline-block;border:1px solid var(--line);border-radius:50px;padding:6px 14px;font-size:.82rem;color:var(--green);background:var(--white);margin:0 8px 8px 0}
+.contact-list li{padding:14px 0;border-bottom:1px solid var(--line)}
+.contact-list b{display:block;font:600 .7rem var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:2px}
+.lang-switch{display:none}
+.hidden{display:none!important}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}.btn,.prop,.thumb svg{transition:none}}
+
+.skip{position:absolute;left:-9999px;top:8px;background:var(--gold);color:#1b1d1b;padding:10px 16px;z-index:100;border-radius:var(--r);font-weight:600}
+.skip:focus{left:8px}
+
+[hidden]{display:none!important}
+</style>
+</head>
+<body data-page="home">
+<a href="#main" class="skip">Skip to content</a>
+<header id="site-header"></header>
+<main id="main">
+<div class="view" data-view="home">
+<section class="hero">
+<div class="hero-art" id="hero-art"></div>
+<div class="wrap">
+<span class="eyebrow">Real estate &amp; construction</span>
+<h1>Land to <em>landmark</em>, built on trust.</h1>
+<p>Plots, homes and commercial property, with construction services from the same team. Find the right property, understand the paperwork, and build with confidence.</p>
+<div class="actions"><a class="btn btn-gold" href="#/properties">Explore Properties</a><a class="btn btn-ghost" href="#/contact">Talk to Us</a></div>
+</div></section>
+
+<div class="wrap">
+<form class="search-card" id="home-search" role="search" aria-label="Search properties">
+<div class="field"><label for="hs-q">Location or keyword</label><input id="hs-q" name="q" placeholder="e.g. corner plot, villa"></div>
+<div class="field"><label for="hs-t">Property type</label><select id="hs-t" name="type"><option value="">All types</option><option value="plot">Plots / Land</option><option value="villa">Villas / Houses</option><option value="apartment">Apartments</option><option value="commercial">Commercial</option></select></div>
+<div class="field"><label for="hs-b">Budget</label><select id="hs-b" name="budget"><option value="">Any budget</option><option value="u25">Under ₹25 Lakh</option><option value="25-50">₹25 – 50 Lakh</option><option value="50-100">₹50 Lakh – 1 Cr</option><option value="o100">Above ₹1 Cr</option></select></div>
+<button class="btn btn-green" type="submit">Search</button>
+</form></div>
+
+<section>
+<div class="wrap">
+<div class="section-head rv"><span class="eyebrow">What we do</span><h2>Everything from the first plot to the finished home</h2>
+<p>Whether you are buying land, a ready home, a commercial space or planning to build, you can work with one team from start to finish.</p></div>
+<div class="grid g4">
+<div class="card rv"><div class="icon"><svg viewBox="0 0 24 24"><path d="M3 18 9 6l5 8 3-4 4 8z"/><path d="M3 21h18"/></svg></div><h3>Plots &amp;amp; Land</h3><p>Residential and investment plots, with guidance on layout, approvals and registration.</p></div>
+<div class="card rv"><div class="icon"><svg viewBox="0 0 24 24"><path d="M3 11 12 3l9 8"/><path d="M5 10v11h14V10"/><path d="M10 21v-6h4v6"/></svg></div><h3>Residential Property</h3><p>Independent houses, villas and apartments for families and first-time buyers.</p></div>
+<div class="card rv"><div class="icon"><svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18"/><path d="M9 7h2M13 7h2M9 11h2M13 11h2M9 15h2M13 15h2"/></svg></div><h3>Commercial Property</h3><p>Shops, offices and commercial floors for business owners and investors.</p></div>
+<div class="card rv"><div class="icon"><svg viewBox="0 0 24 24"><path d="M14 4l6 6-3 3-6-6z"/><path d="M11 7 3 15l3 3 8-8"/><path d="M4 21h16"/></svg></div><h3>Construction</h3><p>Residential and commercial construction on your plot, planned with you.</p></div>
+</div></div></section>
+
+<section class="white">
+<div class="wrap">
+<div class="section-head rv"><span class="eyebrow">Featured</span><h2>Properties to begin with</h2><p>A selection from our current listings.</p></div>
+<div id="featured-notice"></div>
+<div class="grid g3" id="featured"></div>
+<noscript><p>Please enable JavaScript to view listings, or contact us directly.</p></noscript>
+<p style="margin-top:36px"><a class="btn btn-line" href="#/properties">View All Properties</a></p>
+</div></section>
+
+<section>
+<div class="wrap split">
+<div class="art-frame rv" id="home-art" role="img" aria-label="Illustration of a villa"></div>
+<div class="rv">
+<span class="eyebrow">Buy. Build. Move in.</span>
+<h2>Buy a plot, build your home, with one team</h2>
+<p class="lead" style="margin:16px 0 24px">If you already own land, we can build on it. If you do not, we can help you find it. Either way, you deal with people who know both sides of the process.</p>
+<ul class="ticks">
+<li>Help understanding documents and approvals before you buy</li>
+<li>Home design discussed with your family's needs and Vastu preferences</li>
+<li>Construction planned with a clear scope and written estimate</li>
+<li>One point of contact from enquiry to handover</li>
+</ul>
+<p style="margin-top:28px"><a class="btn btn-green" href="#/construction">Explore Construction</a></p>
+</div></div></section>
+
+<section class="dark">
+<div class="wrap">
+<div class="section-head rv"><span class="eyebrow">Why Vastu Bhoomi</span><h2>A calmer way to buy and build</h2>
+<p>Property is a big decision. We keep the process clear so you always know where you stand.</p></div>
+<div class="grid g4">
+<div class="card rv"><div class="icon"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg></div><h3>Clear paperwork guidance</h3><p>We explain what to check in title, approvals and registration, and in plain language.</p></div>
+<div class="card rv"><div class="icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg></div><h3>Vastu-aware planning</h3><p>Entrance, orientation and room placement are discussed early, where you want them.</p></div>
+<div class="card rv"><div class="icon"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg></div><h3>Honest communication</h3><p>Prices, scope and timelines are shared openly, with nothing hidden in the small print.</p></div>
+<div class="card rv"><div class="icon"><svg viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="m11 12 9-9M16 7l3 3"/></svg></div><h3>Support after you decide</h3><p>Home-loan guidance, registration support and construction under one roof.</p></div>
+</div></div></section>
+
+<section>
+<div class="wrap split" style="align-items:start">
+<div class="rv"><span class="eyebrow">How it works</span><h2>A simple path from enquiry to keys</h2>
+<p class="lead" style="margin-top:16px">No pressure and no jargon. You decide the pace.</p></div>
+<div class="steps rv">
+<div class="step"><div><h4>Tell us what you need</h4><p>Budget, location, plot size or type of home. A short call or message is enough.</p></div></div>
+<div class="step"><div><h4>Shortlist and visit</h4><p>We share suitable options and arrange site visits at times that suit you.</p></div></div>
+<div class="step"><div><h4>Verify and decide</h4><p>We walk you through documents, approvals and payment terms before you commit.</p></div></div>
+<div class="step"><div><h4>Register, build, hand over</h4><p>Registration support, and if you choose, construction through to handover.</p></div></div>
+</div></div></section>
+
+<section class="white">
+<div class="wrap" style="max-width:860px">
+<div class="section-head rv"><span class="eyebrow">Questions</span><h2>Common questions</h2></div>
+<div class="faq"><details><summary>Do you help with both buying and selling?</summary><p>Yes. We help buyers find plots and property, and we help owners list and sell land, homes and commercial property.</p></details><details><summary>Can you build on a plot I already own?</summary><p>Yes. Share your plot size and requirements on the Construction page and we will discuss design, scope and an estimate with you.</p></details><details><summary>Can I visit a property before deciding?</summary><p>Yes. Site visits can be arranged by appointment. Use the enquiry form or call us.</p></details><details><summary>Do you assist with home loans?</summary><p>We can guide you on the process and documents lenders usually ask for. Loan approval and interest rates are decided by the lender.</p></details></div>
+</div></section>
+
+<section class="cta-band"><div class="wrap rv">
+<span class="eyebrow">Let's talk</span>
+<h2>Looking for a plot, a home or a builder?</h2><p>Tell us what you need. We will help you shortlist options and understand the paperwork before you commit.</p>
+<div class="actions"><a class="btn btn-gold" href="#/contact">Send an Enquiry</a><a class="btn btn-ghost" href="#/properties">Browse Properties</a></div>
+</div></section>
+
+</div>
+<div class="view" data-view="properties" hidden>
+<section class="page-hero"><div class="wrap">
+<div class="crumbs"><a href="#/">Home</a> / Properties</div>
+<span class="eyebrow">Properties</span>
+<h1>Find your <em style='color:var(--gold)'>property</em></h1>
+<p>Filter by type and budget. Every listing can be enquired about directly.</p></div></section>
+<section style="padding-top:56px"><div class="wrap">
+<div id="listing-notice"></div>
+<form class="toolbar" onsubmit="return false" aria-label="Filter properties">
+<div class="field"><label for="f-q">Search</label><input id="f-q" placeholder="Location, keyword, facing"></div>
+<div class="field"><label for="f-type">Type</label><select id="f-type"><option value="">All types</option><option value="plot">Plots / Land</option><option value="villa">Villas / Houses</option><option value="apartment">Apartments</option><option value="commercial">Commercial</option></select></div>
+<div class="field"><label for="f-budget">Budget</label><select id="f-budget"><option value="">Any budget</option><option value="u25">Under ₹25 Lakh</option><option value="25-50">₹25 – 50 Lakh</option><option value="50-100">₹50 Lakh – 1 Cr</option><option value="o100">Above ₹1 Cr</option></select></div>
+<div class="field"><label for="f-sort">Sort by</label><select id="f-sort"><option value="new">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="area">Largest area</option></select></div>
+</form>
+<div style="display:flex;justify-content:space-between;align-items:center" class="count"><span id="count" aria-live="polite"></span><button type="button" id="f-reset" class="link" style="background:none;border:0;border-bottom:1px solid var(--gold);cursor:pointer;font:inherit;font-weight:600;color:var(--green)">Reset filters</button></div>
+<div class="grid g3" id="results"></div>
+<noscript><p>Please enable JavaScript to view listings, or contact us directly.</p></noscript>
+</div></section>
+<section class="cta-band"><div class="wrap rv">
+<span class="eyebrow">Let's talk</span>
+<h2>Do not see what you are looking for?</h2><p>Tell us your budget, location and requirement. We may have options that are not listed yet.</p>
+<div class="actions"><a class="btn btn-gold" href="#/contact">Send an Enquiry</a><a class="btn btn-ghost" href="#/properties">Browse Properties</a></div>
+</div></section>
+
+</div>
+<div class="view" data-view="property" hidden>
+<section class="page-hero" style="padding:64px 0 48px"><div class="wrap">
+<div class="crumbs"><a href="#/">Home</a> / <a href="#/properties">Properties</a> / <span id="crumb-title">Details</span></div>
+<h1 id="detail-h1" style="font-size:clamp(2rem,4vw,3rem)">Property details</h1>
+<p id="detail-sub"></p></div></section>
+<section style="padding-top:56px"><div class="wrap" id="detail"><div class="empty"><p>Loading property…</p></div></div></section>
+<noscript><div class="wrap"><p>Please enable JavaScript to view this listing.</p></div></noscript>
+</div>
+<div class="view" data-view="buy" hidden>
+<section class="page-hero"><div class="wrap">
+<div class="crumbs"><a href="#/">Home</a> / Buy</div>
+<span class="eyebrow">Buy</span>
+<h1>Buy with <em style='color:var(--gold)'>confidence</em></h1>
+<p>A clear checklist, an EMI estimator and a team that explains every step.</p></div></section>
+<section><div class="wrap split" style="align-items:start">
+<div class="rv"><span class="eyebrow">Before you buy</span><h2>What to check on any property</h2>
+<p class="lead" style="margin:16px 0 24px">Requirements vary by state and by type of property. These are the points we help our buyers look at.</p>
+<ul class="ticks">
+<li><b>Title and ownership.</b> The seller's right to sell, supported by title documents.</li>
+<li><b>Encumbrances.</b> No loans, disputes or claims on the property.</li>
+<li><b>Land use and approvals.</b> The land is approved for the intended use, and layouts or buildings are approved by the local authority.</li>
+<li><b>RERA registration.</b> For eligible projects, check the registration number on your state's RERA website.</li>
+<li><b>Revenue records.</b> Mutation and land records are up to date and match the seller's name.</li>
+<li><b>Registration costs.</b> Stamp duty and registration charges differ by state. Ask for the exact figure up front.</li>
+</ul>
+<p class="note" style="margin-top:18px">This is general guidance, not legal advice. For a major purchase, consider having your own lawyer review the documents.</p></div>
+<div class="rv"><div class="form-card"><h3>Estimate your EMI</h3><p>Adjust the figures to see an indicative monthly instalment.</p>
+<div data-emi-slot="5000000"></div></div></div>
+</div></section>
+
+<section class="dark"><div class="wrap">
+<div class="section-head rv"><span class="eyebrow">Our buying process</span><h2>Four steps, no surprises</h2></div>
+<div class="steps rv" style="max-width:820px">
+<div class="step"><div><h4>Share your requirement</h4><p>Type of property, area, budget and any Vastu preferences.</p></div></div>
+<div class="step"><div><h4>Visit shortlisted options</h4><p>We arrange site visits and answer questions on the spot.</p></div></div>
+<div class="step"><div><h4>Document review</h4><p>We explain what each paper means and what to confirm before paying.</p></div></div>
+<div class="step"><div><h4>Booking and registration</h4><p>Support through payment schedule, registry and handover of documents.</p></div></div>
+</div></div></section>
+
+<section class="white"><div class="wrap split" style="align-items:start">
+<div class="rv"><span class="eyebrow">Start here</span><h2>Tell us what you are looking for</h2>
+<p class="lead" style="margin:16px 0 24px">Share a few details and we will suggest suitable options from our listings and our network.</p>
+<a class="link" href="#/properties">Or browse all properties</a></div>
+<div class="form-card rv"><h3>Buyer enquiry</h3><p>We will contact you to understand your needs.</p>
+<form data-subject="Buyer enquiry" novalidate>
+<div class="form-grid">
+<div class="field full"><label for="f1">Full name</label><input id="f1" name="Name" type="text" required autocomplete="name"><span class="err"></span></div><div class="field full"><label for="f2">Mobile number</label><input id="f2" name="Phone" type="tel" required autocomplete="tel" placeholder="10-digit mobile number" inputmode="tel"><span class="err"></span></div><div class="field full"><label for="f3">Property type (optional)</label><select id="f3" name="Looking for"><option value="">Select</option><option value="Plot / Land">Plot / Land</option><option value="Villa / House">Villa / House</option><option value="Apartment">Apartment</option><option value="Commercial">Commercial</option></select><span class="err"></span></div><div class="field full"><label for="f4">Budget (optional)</label><select id="f4" name="Budget"><option value="">Select</option><option value="Under ₹25 Lakh">Under ₹25 Lakh</option><option value="₹25 – 50 Lakh">₹25 – 50 Lakh</option><option value="₹50 Lakh – 1 Cr">₹50 Lakh – 1 Cr</option><option value="Above ₹1 Cr">Above ₹1 Cr</option></select><span class="err"></span></div><div class="field full"><label for="f5">Preferred location or notes (optional)</label><textarea id="f5" name="Message"></textarea></div>
+<input class="hp" name="Website" tabindex="-1" autocomplete="off" aria-hidden="true">
+<div class="full"><button class="btn btn-green" type="submit" style="width:100%">Send Enquiry</button><p class="note">We use your details only to respond to your enquiry.</p></div>
+</div></form>
+</div></div></section>
+
+<section><div class="wrap" style="max-width:860px">
+<div class="section-head rv"><span class="eyebrow">Buyer FAQ</span><h2>Good questions to ask</h2></div>
+<div class="faq"><details><summary>Is a plot or a built home better for me?</summary><p>A plot gives you design freedom and often a lower entry price, but you will need to plan construction. A built home is ready sooner. We can talk through both based on your budget and timeline.</p></details><details><summary>Can I get a home loan?</summary><p>Most lenders finance approved property with clear documents. Eligibility, rates and terms are decided by the lender. We can guide you on the documents usually required.</p></details><details><summary>Are there extra costs beyond the price?</summary><p>Typically yes: stamp duty, registration fees and sometimes development or maintenance charges. These vary by state and property. Ask us for a full cost breakup before booking.</p></details><details><summary>Can I visit before I decide?</summary><p>Yes. Site visits are by appointment. Use the form above to request one.</p></details></div>
+</div></section>
+<section class="cta-band"><div class="wrap rv">
+<span class="eyebrow">Let's talk</span>
+<h2>Looking for a plot, a home or a builder?</h2><p>Tell us what you need. We will help you shortlist options and understand the paperwork before you commit.</p>
+<div class="actions"><a class="btn btn-gold" href="#/contact">Send an Enquiry</a><a class="btn btn-ghost" href="#/properties">Browse Properties</a></div>
+</div></section>
+
+</div>
+<div class="view" data-view="sell" hidden>
+<section class="page-hero"><div class="wrap">
+<div class="crumbs"><a href="#/">Home</a> / Sell</div>
+<span class="eyebrow">Sell</span>
+<h1>Sell your property <em style='color:var(--gold)'>with care</em></h1>
+<p>Share your property details and we will discuss pricing, presentation and the right buyers.</p></div></section>
+<section><div class="wrap">
+<div class="section-head rv"><span class="eyebrow">Why list with us</span><h2>A straightforward way to sell</h2></div>
+<div class="grid g3">
+<div class="card rv"><div class="icon"><svg viewBox="0 0 24 24"><path d="M3 12V3h9l9 9-9 9z"/><circle cx="7.5" cy="7.5" r="1.2"/></svg></div><h3>Realistic pricing discussion</h3><p>We talk through how a property like yours is likely to be priced, based on location, size and condition.</p></div>
+<div class="card rv"><div class="icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg></div><h3>Presented properly</h3><p>Your property is described clearly, with the details buyers actually ask about.</p></div>
+<div class="card rv"><div class="icon"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg></div><h3>Paperwork support</h3><p>We help you organise the documents buyers and lenders will want to see.</p></div>
+</div></div></section>
+
+<section class="white"><div class="wrap split" style="align-items:start">
+<div class="rv"><span class="eyebrow">How selling works</span><h2>From listing to sale</h2>
+<div class="steps" style="margin-top:20px">
+<div class="step"><div><h4>Share details</h4><p>Send the basics using the form. Photos and documents can follow.</p></div></div>
+<div class="step"><div><h4>Pricing conversation</h4><p>We discuss an expected price range and how to position the property.</p></div></div>
+<div class="step"><div><h4>Listing and site visits</h4><p>We present the property to interested buyers and arrange visits.</p></div></div>
+<div class="step"><div><h4>Negotiation and registration</h4><p>Support through offers, agreement and registration.</p></div></div>
+</div></div>
+<div class="form-card rv"><h3>List your property</h3><p>Tell us about what you want to sell.</p>
+<form data-subject="Seller enquiry" novalidate>
+<div class="form-grid">
+<div class="field full"><label for="f6">Full name</label><input id="f6" name="Name" type="text" required autocomplete="name"><span class="err"></span></div><div class="field full"><label for="f7">Mobile number</label><input id="f7" name="Phone" type="tel" required autocomplete="tel" placeholder="10-digit mobile number" inputmode="tel"><span class="err"></span></div><div class="field full"><label for="f8">Property type</label><select id="f8" name="Property type" required><option value="">Select</option><option value="Plot / Land">Plot / Land</option><option value="Villa / House">Villa / House</option><option value="Apartment">Apartment</option><option value="Commercial">Commercial</option><option value="Agricultural land">Agricultural land</option></select><span class="err"></span></div><div class="field full"><label for="f9">Location</label><input id="f9" name="Location" type="text" required placeholder="Area and city"><span class="err"></span></div><div class="field"><label for="f10">Area (sq ft) (optional)</label><input id="f10" name="Area (sq ft)" type="text" placeholder="e.g. 1500"><span class="err"></span></div><div class="field"><label for="f11">Expected price (₹) (optional)</label><input id="f11" name="Expected price" type="text" placeholder="e.g. 35,00,000"><span class="err"></span></div><div class="field full"><label for="f12">Anything else we should know (optional)</label><textarea id="f12" name="Message"></textarea></div>
+<input class="hp" name="Website" tabindex="-1" autocomplete="off" aria-hidden="true">
+<div class="full"><button class="btn btn-green" type="submit" style="width:100%">List My Property</button><p class="note">We use your details only to respond to your enquiry.</p></div>
+</div></form>
+</div></div></section>
+<section class="cta-band"><div class="wrap rv">
+<span class="eyebrow">Let's talk</span>
+<h2>Not sure about your property's value?</h2><p>Send us the details and we will talk you through the market in your area.</p>
+<div class="actions"><a class="btn btn-gold" href="#/contact">Send an Enquiry</a><a class="btn btn-ghost" href="#/properties">Browse Properties</a></div>
+</div></section>
+
+</div>
+<div class="view" data-view="construction" hidden>
+<section class="page-hero"><div class="wrap">
+<div class="crumbs"><a href="#/">Home</a> / Construction</div>
+<span class="eyebrow">Construction</span>
+<h1>Build the home <em style='color:var(--gold)'>you have planned</em></h1>
+<p>Residential and commercial construction, planned with you and built to an agreed scope.</p></div></section>
+<section><div class="wrap">
+<div class="section-head rv"><span class="eyebrow">Services</span><h2>What we build</h2></div>
+<div class="grid g4">
+<div class="card rv"><div class="icon"><svg viewBox="0 0 24 24"><path d="M3 11 12 3l9 8"/><path d="M5 10v11h14V10"/><path d="M10 21v-6h4v6"/></svg></div><h3>Independent houses</h3><p>Ground-plus-floors homes on your own plot, designed around your family.</p></div>
+<div class="card rv"><div class="icon"><svg viewBox="0 0 24 24"><path d="M3 11 12 3l9 8"/><path d="M5 10v11h14V10"/><path d="M10 21v-6h4v6"/></svg></div><h3>Duplex &amp; villas</h3><p>Larger homes with more design detail, gardens and parking.</p></div>
+<div class="card rv"><div class="icon"><svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18"/><path d="M9 7h2M13 7h2M9 11h2M13 11h2M9 15h2M13 15h2"/></svg></div><h3>Commercial buildings</h3><p>Shops, showrooms and small office buildings for business use.</p></div>
+<div class="card rv"><div class="icon"><svg viewBox="0 0 24 24"><path d="m3 17 14-14 4 4L7 21z"/><path d="m8 10 2 2M11 7l2 2M5 13l2 2"/></svg></div><h3>Renovation &amp; extension</h3><p>Adding a floor, remodelling rooms or refreshing an older building.</p></div>
+</div></div></section>
+
+<section class="dark"><div class="wrap split" style="align-items:start">
+<div class="rv"><span class="eyebrow">Vastu-aware design</span><h2>Planned around how you live</h2>
+<p class="lead" style="margin:16px 0 24px">If Vastu matters to your family, we plan it into the layout from the start rather than adjusting it later.</p>
+<ul class="ticks"><li>Entrance and plot orientation reviewed first</li><li>Room placement discussed against your preferences</li><li>Natural light and ventilation considered together</li><li>You approve the plan before work begins</li></ul></div>
+<div class="steps rv">
+<div class="step"><div><h4>Consultation</h4><p>We understand your plot, family needs and budget.</p></div></div>
+<div class="step"><div><h4>Plan and estimate</h4><p>A layout and a written estimate with a clear scope.</p></div></div>
+<div class="step"><div><h4>Construction</h4><p>Work carried out in stages, with regular updates from us.</p></div></div>
+<div class="step"><div><h4>Handover</h4><p>Final walkthrough and handover of the finished building.</p></div></div>
+</div></div></section>
+
+<section class="white"><div class="wrap split" style="align-items:start">
+<div class="rv"><span class="eyebrow">Request a quotation</span><h2>Tell us about your project</h2>
+<p class="lead" style="margin:16px 0 24px">Share your plot details and what you would like to build. We will contact you to discuss scope and a quotation.</p>
+<p class="note">Estimates depend on design, materials and site conditions, so we do not quote a standard rate online.</p></div>
+<div class="form-card rv"><h3>Construction enquiry</h3><p>A few details help us give you a useful reply.</p>
+<form data-subject="Construction enquiry" novalidate>
+<div class="form-grid">
+<div class="field full"><label for="f13">Full name</label><input id="f13" name="Name" type="text" required autocomplete="name"><span class="err"></span></div><div class="field full"><label for="f14">Mobile number</label><input id="f14" name="Phone" type="tel" required autocomplete="tel" placeholder="10-digit mobile number" inputmode="tel"><span class="err"></span></div><div class="field full"><label for="f15">Type of construction</label><select id="f15" name="Construction type" required><option value="">Select</option><option value="Independent house">Independent house</option><option value="Duplex / villa">Duplex / villa</option><option value="Commercial building">Commercial building</option><option value="Renovation / extension">Renovation / extension</option></select><span class="err"></span></div><div class="field"><label for="f16">Plot size (sq ft) (optional)</label><input id="f16" name="Plot size" type="text" placeholder="e.g. 1200"><span class="err"></span></div><div class="field"><label for="f17">Number of floors (optional)</label><input id="f17" name="Floors" type="text" placeholder="e.g. G+1"><span class="err"></span></div><div class="field full"><label for="f18">Plot location (optional)</label><input id="f18" name="Location" type="text" placeholder="Area and city"><span class="err"></span></div><div class="field full"><label for="f19">Approximate budget (optional)</label><input id="f19" name="Budget" type="text" placeholder="e.g. 40 lakh"><span class="err"></span></div><div class="field full"><label for="f20">Notes or requirements (optional)</label><textarea id="f20" name="Message"></textarea></div>
+<input class="hp" name="Website" tabindex="-1" autocomplete="off" aria-hidden="true">
+<div class="full"><button class="btn btn-green" type="submit" style="width:100%">Request Quotation</button><p class="note">We use your details only to respond to your enquiry.</p></div>
+</div></form>
+</div></div></section>
+<section class="cta-band"><div class="wrap rv">
+<span class="eyebrow">Let's talk</span>
+<h2>Own a plot and ready to plan?</h2><p>Talk to us about what can be built on it, and what it is likely to involve.</p>
+<div class="actions"><a class="btn btn-gold" href="#/contact">Send an Enquiry</a><a class="btn btn-ghost" href="#/properties">Browse Properties</a></div>
+</div></section>
+
+</div>
+<div class="view" data-view="about" hidden>
+<section class="page-hero"><div class="wrap">
+<div class="crumbs"><a href="#/">Home</a> / About Us</div>
+<span class="eyebrow">About Us</span>
+<h1>About <em style='color:var(--gold)'>Vastu Bhoomi</em> Developers</h1>
+<p>A real estate company for land, homes, commercial property and construction.</p></div></section>
+<section><div class="wrap split">
+<div class="rv"><span class="eyebrow">Who we are</span><h2>Property and construction, handled together</h2>
+<p class="lead" style="margin:16px 0">Vastu Bhoomi Developers deals in plots and land, residential and commercial property, and construction services.</p>
+<p>Our name reflects how we think about property: a place should be well-planned, well-oriented and right for the people who will live or work in it. We aim to make buying, selling and building clearer, so that customers can decide with confidence.</p>
+<!-- EDIT ME: add your founding story, team background and the areas you work in, as another paragraph here. --></div>
+<div class="art-frame rv" data-art="villa:9" role="img" aria-label="Illustration of a home"></div>
+</div></section>
+
+<section class="dark"><div class="wrap">
+<div class="section-head rv"><span class="eyebrow">What guides us</span><h2>Our principles</h2></div>
+<div class="grid g4">
+<div class="card rv"><div class="icon"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg></div><h3>Transparency</h3><p>Prices, scope and terms explained plainly, before you commit.</p></div>
+<div class="card rv"><div class="icon"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg></div><h3>Documentation first</h3><p>We encourage buyers to check documents and approvals, and we help them do it.</p></div>
+<div class="card rv"><div class="icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg></div><h3>Thoughtful planning</h3><p>Layout, light and Vastu preferences considered at the start of every project.</p></div>
+<div class="card rv"><div class="icon"><svg viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="m11 12 9-9M16 7l3 3"/></svg></div><h3>Long-term relationships</h3><p>We want you to feel comfortable recommending us after the deal is done.</p></div>
+</div></div></section>
+
+<section class="white"><div class="wrap">
+<div class="section-head rv"><span class="eyebrow">What we offer</span><h2>Services at a glance</h2></div>
+<div class="grid g2">
+<div class="card rv"><h3>Property</h3><p style="margin-bottom:14px">Help for buyers and sellers of residential plots, houses, apartments and commercial property.</p><a class="link" href="#/properties">Browse properties</a></div>
+<div class="card rv"><h3>Construction</h3><p style="margin-bottom:14px">Residential and commercial construction, and renovation, planned with a clear scope.</p><a class="link" href="#/construction">Explore construction</a></div>
+</div></div></section>
+<section class="cta-band"><div class="wrap rv">
+<span class="eyebrow">Let's talk</span>
+<h2>Let's talk about your property plans</h2><p>Visit, call or send us a message. We are happy to answer questions with no obligation.</p>
+<div class="actions"><a class="btn btn-gold" href="#/contact">Send an Enquiry</a><a class="btn btn-ghost" href="#/properties">Browse Properties</a></div>
+</div></section>
+
+</div>
+<div class="view" data-view="contact" hidden>
+<section class="page-hero"><div class="wrap">
+<div class="crumbs"><a href="#/">Home</a> / Contact</div>
+<span class="eyebrow">Contact</span>
+<h1>Let's <em style='color:var(--gold)'>talk</em></h1>
+<p>Send us an enquiry or reach us directly. We usually respond during working hours.</p></div></section>
+<section><div class="wrap split" style="align-items:start">
+<div class="rv"><span class="eyebrow">Get in touch</span><h2>We would like to hear from you</h2>
+<p class="lead" style="margin:16px 0 24px">Use the form for a quick enquiry. It prepares your message and sends it to us through WhatsApp or email.</p>
+<ul class="contact-list">
+<li data-hide-empty><b>Phone</b><a data-config="phoneDisplay" href="#"></a></li>
+<li data-hide-empty><b>Email</b><a data-config="email" href="#"></a></li>
+<li data-hide-empty><b>Office</b><span data-config="address"></span></li>
+<li data-hide-empty><b>Hours</b><span data-config="hours"></span></li>
+<li data-hide-empty><b>Directions</b><a data-config="mapUrl" href="#" target="_blank" rel="noopener">Open in Google Maps</a></li>
+</ul>
+<!-- Phone, email, address, hours and map link appear above automatically once filled in js/config.js -->
+<p class="note" style="margin-top:16px">Prefer a call back? Leave your number in the form and we will get in touch.</p></div>
+<div class="form-card rv"><h3>Send an enquiry</h3><p>Tell us a little about what you need.</p>
+<form data-subject="General enquiry" novalidate>
+<div class="form-grid">
+<div class="field full"><label for="f21">Full name</label><input id="f21" name="Name" type="text" required autocomplete="name"><span class="err"></span></div><div class="field full"><label for="f22">Mobile number</label><input id="f22" name="Phone" type="tel" required autocomplete="tel" placeholder="10-digit mobile number" inputmode="tel"><span class="err"></span></div><div class="field full"><label for="f23">Email (optional)</label><input id="f23" name="Email" type="email" autocomplete="email" placeholder="you@example.com"><span class="err"></span></div><div class="field full"><label for="f24">I am interested in (optional)</label><select id="f24" name="Interested in"><option value="">Select</option><option value="Buying a plot / land">Buying a plot / land</option><option value="Buying a home">Buying a home</option><option value="Commercial property">Commercial property</option><option value="Selling a property">Selling a property</option><option value="Construction">Construction</option><option value="Something else">Something else</option></select><span class="err"></span></div><div class="field full"><label for="f25">Message (optional)</label><textarea id="f25" name="Message"></textarea></div>
+<input class="hp" name="Website" tabindex="-1" autocomplete="off" aria-hidden="true">
+<div class="full"><button class="btn btn-green" type="submit" style="width:100%">Send Enquiry</button><p class="note">We use your details only to respond to your enquiry.</p></div>
+</div></form>
+</div></div></section>
+</div>
+</main>
+<footer id="site-footer"></footer>
+<script>
+/*
+  VASTU BHOOMI DEVELOPERS — SITE SETTINGS
+  Edit this one file to change contact details everywhere on the site.
+  Leave a value as "" to hide it. Do not remove the quotes.
+*/
+window.VB = {
+  company: "Vastu Bhoomi Developers",
+  city: "Your City",                        // shown on sample listings and in search
+  address: "",                              // e.g. "Office no., Street, City, State PIN"
+  phoneDisplay: "",                         // e.g. "+91 98765 43210"
+  phoneDigits: "",                          // digits only with country code, e.g. "919876543210"
+  whatsappDigits: "",                       // digits only with country code. Enables WhatsApp buttons
+  email: "",                                // e.g. "info@yourdomain.com". Enables email buttons
+  hours: "Mon–Sat, 10:00 AM – 7:00 PM",
+  mapUrl: "",                               // Google Maps share link to your office (optional)
+  rera: "",                                 // RERA registration number(s) for projects, shown in footer
+  siteUrl: "",                              // e.g. "https://www.yourdomain.com" (used for SEO tags)
+  formEndpoint: "",                         // optional: Formspree / Web3Forms URL to receive enquiries by email
+  showSampleNotice: true,                   // set false once real listings replace the samples in js/data.js
+  social: { instagram: "", facebook: "", youtube: "", linkedin: "" },
+  lang: "en"                                // "en" now; "hi" once js/i18n.js has Hindi text
+};
+
+</script>
+<script>
+/*
+  TRANSLATIONS
+  Navigation, footer and form labels read from this file. To add Hindi later:
+  1) fill in the "hi" object below using the same keys as "en",
+  2) set lang: "hi" in js/config.js (or add a language switch that sets localStorage "vb-lang").
+  Any key missing from "hi" falls back to English automatically.
+  Page body copy can be moved here the same way by adding data-i18n="key" to an element.
+*/
+window.VB_I18N = {
+  en: {
+    "nav.home": "Home", "nav.properties": "Properties", "nav.buy": "Buy", "nav.sell": "Sell",
+    "nav.construction": "Construction", "nav.about": "About Us", "nav.contact": "Contact",
+    "nav.cta": "Enquire Now",
+    "foot.about": "Land, homes and commercial property, with construction services from the same team.",
+    "foot.explore": "Explore", "foot.services": "Services", "foot.contact": "Contact",
+    "foot.plots": "Plots & Land", "foot.residential": "Residential Property", "foot.commercial": "Commercial Property", "foot.construction": "Construction",
+    "foot.rights": "All rights reserved.",
+    "foot.disclaimer": "Property details, prices and availability are subject to change and are not an offer. Please verify documents and approvals before any purchase."
+  },
+  hi: {}
+};
+
+</script>
+<script>
+/*
+  PROPERTY LISTINGS
+  These eight entries are SAMPLE placeholders so you can see how the site looks.
+  Replace them with your real inventory. Every field below is used by the site.
+
+  type:   "plot" | "villa" | "apartment" | "commercial"
+  price:  number in rupees (e.g. 2450000)
+  area:   number, area in square feet
+  beds/baths: leave 0 for plots and commercial
+  sample: true shows a "Sample" badge. Remove it (or set false) for real listings.
+  photos: optional list of image paths, e.g. ["img/plot-1.jpg"]. If empty, an illustration is shown.
+*/
+window.VB_LISTINGS = [
+  {
+    id: "sample-plot-01", sample: true, type: "plot", status: "Available",
+    title: "Residential Plot in a Planned Layout",
+    locality: "Sample Colony, Your City", price: 2450000, area: 1500, beds: 0, baths: 0, facing: "East",
+    highlights: ["Corner plot with wide approach road", "Layout with internal roads and drainage plan", "Suitable for independent house construction", "Clear paperwork walkthrough before booking"],
+    description: "A sample listing showing how a residential plot appears on the site. Replace this text with the real description, approvals and plot dimensions.",
+    photos: [], art: 1
+  },
+  {
+    id: "sample-villa-01", sample: true, type: "villa", status: "Ready to move",
+    title: "Independent Villa with Garden",
+    locality: "Sample Enclave, Your City", price: 8500000, area: 2200, beds: 4, baths: 4, facing: "North-East",
+    highlights: ["Planned with Vastu-friendly entrance and room placement", "Private garden and covered parking", "Open kitchen with utility area", "Separate servant or study room"],
+    description: "A sample listing for a premium independent villa. Replace with the real built-up area, floor plan details and finishing specification.",
+    photos: [], art: 2
+  },
+  {
+    id: "sample-apt-01", sample: true, type: "apartment", status: "Under development",
+    title: "3 BHK Apartment in a Gated Community",
+    locality: "Sample Nagar, Your City", price: 5200000, area: 1380, beds: 3, baths: 3, facing: "East",
+    highlights: ["Well-ventilated layout with two balconies", "Covered parking included", "Lift and power backup", "Possession timeline shared in writing"],
+    description: "A sample listing for an apartment. Replace with the real project name, RERA number, possession date and amenities.",
+    photos: [], art: 3
+  },
+  {
+    id: "sample-comm-01", sample: true, type: "commercial", status: "Available",
+    title: "Ground-Floor Commercial Shop on Main Road",
+    locality: "Sample Market Road, Your City", price: 6800000, area: 640, beds: 0, baths: 1, facing: "South",
+    highlights: ["High-visibility main-road frontage", "Suitable for retail, clinic or showroom", "Parking in front of the building", "Separate electricity connection"],
+    description: "A sample listing for a commercial unit. Replace with the real frontage, carpet area and usage permissions.",
+    photos: [], art: 4
+  },
+  {
+    id: "sample-plot-02", sample: true, type: "plot", status: "Available",
+    title: "Plot Near Upcoming Development Corridor",
+    locality: "Sample Extension, Your City", price: 1350000, area: 1000, beds: 0, baths: 0, facing: "North",
+    highlights: ["Regular shape, easy to design on", "Approved road access", "Water and electricity lines in the area", "Flexible payment discussion"],
+    description: "A sample plot listing. Replace with real plot number, dimensions, approvals and nearby landmarks.",
+    photos: [], art: 5
+  },
+  {
+    id: "sample-villa-02", sample: true, type: "villa", status: "Under development",
+    title: "Duplex Home in a Compact Community",
+    locality: "Sample Residency, Your City", price: 6400000, area: 1800, beds: 3, baths: 3, facing: "West",
+    highlights: ["Double-height living area", "Terrace with usable open space", "Designed for natural light", "Customisation possible before completion"],
+    description: "A sample duplex listing. Replace with real configuration, specifications and completion timeline.",
+    photos: [], art: 6
+  },
+  {
+    id: "sample-apt-02", sample: true, type: "apartment", status: "Ready to move",
+    title: "2 BHK Apartment for First-Time Buyers",
+    locality: "Sample Park Road, Your City", price: 3400000, area: 980, beds: 2, baths: 2, facing: "North",
+    highlights: ["Efficient layout with no wasted space", "Near schools and daily-needs shops", "Covered parking", "Home-loan guidance available"],
+    description: "A sample apartment listing. Replace with real project details, floor and amenities.",
+    photos: [], art: 7
+  },
+  {
+    id: "sample-comm-02", sample: true, type: "commercial", status: "Available",
+    title: "Office Floor in a Commercial Complex",
+    locality: "Sample Business District, Your City", price: 12500000, area: 2400, beds: 0, baths: 2, facing: "East",
+    highlights: ["Open floor plate that can be partitioned", "Dedicated parking and lift access", "Suitable for offices and consulting firms", "Power backup"],
+    description: "A sample office listing. Replace with real floor, carpet area and lease or sale terms.",
+    photos: [], art: 8
+  }
+];
+
+</script>
+<script>
+/* Architectural placeholder illustrations (inline SVG). Used until real photographs are added. */
+(function () {
+  var G = "#173F35", G2 = "#1f5245", G3 = "#2b6a58", IV = "#F7F4EC", AU = "#B89A5A";
+
+  function rng(seed) {
+    var s = (seed || 1) * 9301 + 49297;
+    return function () { s = (s * 9301 + 49297) % 233280; return s / 233280; };
+  }
+
+  function windows(x, y, w, h, cols, rows, r, lit) {
+    var out = "", gx = 6, gy = 8;
+    var cw = (w - gx * (cols + 1)) / cols, ch = (h - gy * (rows + 1)) / rows;
+    for (var i = 0; i < cols; i++) {
+      for (var j = 0; j < rows; j++) {
+        var on = r() < (lit || 0.3);
+        out += '<rect x="' + (x + gx + i * (cw + gx)).toFixed(1) + '" y="' + (y + gy + j * (ch + gy)).toFixed(1) +
+          '" width="' + cw.toFixed(1) + '" height="' + ch.toFixed(1) + '" fill="' + (on ? AU : IV) + '" opacity="' + (on ? 0.85 : 0.16) + '"/>';
+      }
+    }
+    return out;
+  }
+
+  function tree(x, y, s) {
+    return '<rect x="' + (x - 3 * s) + '" y="' + (y - 24 * s) + '" width="' + 6 * s + '" height="' + 24 * s + '" fill="' + IV + '" opacity=".5"/>' +
+      '<circle cx="' + x + '" cy="' + (y - 40 * s) + '" r="' + 22 * s + '" fill="' + G3 + '"/>';
+  }
+
+  function frame(inner, sky) {
+    return '<svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration">' +
+      '<rect width="800" height="600" fill="' + (sky || G) + '"/>' +
+      '<circle cx="640" cy="150" r="64" fill="none" stroke="' + AU + '" stroke-width="1.5" opacity=".7"/>' +
+      '<circle cx="640" cy="150" r="42" fill="' + AU + '" opacity=".18"/>' +
+      inner + '</svg>';
+  }
+
+  function ground() {
+    return '<rect y="500" width="800" height="100" fill="' + G2 + '"/><line x1="0" y1="500" x2="800" y2="500" stroke="' + AU + '" stroke-width="1.5" opacity=".7"/>';
+  }
+
+  var T = {
+    plot: function (r) {
+      var s = '<rect width="800" height="600" fill="' + G2 + '"/>';
+      s += '<rect x="60" y="60" width="680" height="480" fill="none" stroke="' + AU + '" stroke-width="2"/>';
+      s += '<rect x="60" y="286" width="680" height="28" fill="' + G + '"/><line x1="60" y1="300" x2="740" y2="300" stroke="' + IV + '" stroke-dasharray="12 10" opacity=".5"/>';
+      s += '<rect x="386" y="60" width="28" height="480" fill="' + G + '"/>';
+      var hi = Math.floor(r() * 6);
+      var k = 0;
+      [[80, 80], [226, 80], [434, 80], [580, 80], [80, 330], [226, 330], [434, 330], [580, 330]].forEach(function (p) {
+        var on = (k++ === hi);
+        s += '<rect x="' + p[0] + '" y="' + p[1] + '" width="130" height="190" fill="' + (on ? AU : "none") + '" fill-opacity="' + (on ? 0.4 : 0) + '" stroke="' + (on ? AU : IV) + '" stroke-width="' + (on ? 2.5 : 1) + '" stroke-opacity="' + (on ? 1 : 0.4) + '"/>';
+      });
+      s += tree(40, 590, 1) + tree(770, 590, 1);
+      s += '<g transform="translate(700 100)"><circle r="26" fill="none" stroke="' + IV + '" opacity=".6"/><path d="M0-20 L7 8 L0 3 L-7 8Z" fill="' + AU + '"/><text y="-30" text-anchor="middle" font-size="11" fill="' + IV + '" font-family="Inter,sans-serif" opacity=".8">N</text></g>';
+      return s;
+    },
+    villa: function (r) {
+      var s = ground();
+      s += '<rect x="190" y="290" width="420" height="210" fill="' + G3 + '" stroke="' + IV + '" stroke-opacity=".5"/>';
+      s += '<polygon points="170,290 400,170 630,290" fill="' + G + '" stroke="' + AU + '" stroke-width="2"/>';
+      s += '<rect x="500" y="230" width="110" height="270" fill="' + G2 + '" stroke="' + IV + '" stroke-opacity=".5"/>';
+      s += windows(210, 310, 270, 90, 3, 1, r, 0.6);
+      s += windows(520, 250, 70, 110, 1, 2, r, 0.5);
+      s += '<rect x="360" y="400" width="70" height="100" fill="' + G + '" stroke="' + AU + '"/><circle cx="418" cy="452" r="3" fill="' + AU + '"/>';
+      s += tree(120, 500, 1.3) + tree(700, 500, 1.1);
+      s += '<rect x="330" y="500" width="130" height="8" fill="' + IV + '" opacity=".25"/>';
+      return s;
+    },
+    apartment: function (r) {
+      var s = ground();
+      s += '<rect x="250" y="120" width="230" height="380" fill="' + G3 + '" stroke="' + IV + '" stroke-opacity=".5"/>' + windows(250, 120, 230, 380, 4, 9, r, 0.3);
+      s += '<rect x="480" y="230" width="150" height="270" fill="' + G2 + '" stroke="' + IV + '" stroke-opacity=".5"/>' + windows(480, 230, 150, 270, 3, 6, r, 0.3);
+      s += '<rect x="130" y="320" width="120" height="180" fill="' + G2 + '" stroke="' + IV + '" stroke-opacity=".4"/>' + windows(130, 320, 120, 180, 2, 4, r, 0.25);
+      s += '<rect x="340" y="450" width="50" height="50" fill="' + G + '" stroke="' + AU + '"/>';
+      s += tree(90, 500, 1) + tree(700, 500, 1.2);
+      return s;
+    },
+    commercial: function (r) {
+      var s = ground();
+      s += '<rect x="280" y="90" width="240" height="410" fill="' + G3 + '" stroke="' + AU + '" stroke-opacity=".7"/>';
+      for (var i = 0; i < 14; i++) s += '<line x1="280" x2="520" y1="' + (110 + i * 28) + '" y2="' + (110 + i * 28) + '" stroke="' + IV + '" opacity=".2"/>';
+      for (var j = 0; j < 5; j++) s += '<line y1="90" y2="500" x1="' + (328 + j * 48) + '" x2="' + (328 + j * 48) + '" stroke="' + IV + '" opacity=".15"/>';
+      s += windows(280, 90, 240, 410, 5, 14, r, 0.12);
+      s += '<rect x="130" y="380" width="540" height="120" fill="' + G2 + '" stroke="' + IV + '" stroke-opacity=".5"/>';
+      s += '<rect x="130" y="372" width="540" height="10" fill="' + AU + '" opacity=".8"/>';
+      s += windows(130, 392, 540, 90, 8, 1, r, 0.5);
+      s += '<rect x="370" y="440" width="60" height="60" fill="' + G + '" stroke="' + AU + '"/>';
+      return s;
+    }
+  };
+
+  window.VBArt = {
+    svg: function (type, seed) {
+      var r = rng(seed || 1);
+      var f = T[type] || T.villa;
+      return frame(f(r), type === "plot" ? G2 : G);
+    },
+    hero: function () {
+      var r = rng(11), s = "";
+      s += '<svg viewBox="0 0 1600 800" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">';
+      s += '<rect width="1600" height="800" fill="' + G + '"/>';
+      s += '<circle cx="1180" cy="210" r="120" fill="none" stroke="' + AU + '" stroke-width="1.5" opacity=".6"/><circle cx="1180" cy="210" r="80" fill="' + AU + '" opacity=".14"/>';
+      var layers = [
+        { x: 700, base: 760, fill: G2, items: [[0, 300, 140], [150, 400, 120], [290, 260, 160], [470, 460, 130], [610, 340, 150], [770, 420, 120], [900, 300, 160]] },
+        { x: 760, base: 760, fill: G3, items: [[0, 220, 110], [130, 340, 100], [250, 280, 130], [400, 380, 110], [530, 250, 120], [670, 330, 100]] }
+      ];
+      layers.forEach(function (L, li) {
+        L.items.forEach(function (b) {
+          var x = L.x + b[0], y = L.base - b[1];
+          s += '<rect x="' + x + '" y="' + y + '" width="' + b[2] + '" height="' + b[1] + '" fill="' + L.fill + '" stroke="' + IV + '" stroke-opacity="' + (li ? 0.35 : 0.2) + '"/>';
+          s += windows(x, y, b[2], b[1], Math.max(2, Math.round(b[2] / 36)), Math.round(b[1] / 44), r, li ? 0.28 : 0.14);
+        });
+      });
+      s += '<rect y="740" width="1600" height="60" fill="' + G2 + '"/><line x1="0" y1="740" x2="1600" y2="740" stroke="' + AU + '" stroke-width="1.5" opacity=".7"/>';
+      s += '</svg>';
+      return s;
+    }
+  };
+})();
+
+</script>
+<script>
+/* Vastu Bhoomi Developers — site scripts (no dependencies) */
+(function () {
+  "use strict";
+  var VB = window.VB || {};
+  var LISTINGS = window.VB_LISTINGS || [];
+  var $ = function (s, c) { return (c || document).querySelector(s); };
+  var $$ = function (s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); };
+  var isSet = function (v) { return typeof v === "string" && v.trim() !== ""; };
+  function hashParams() { var h = location.hash || "", i = h.indexOf("?"); return new URLSearchParams(i > -1 ? h.slice(i + 1) : ""); }
+
+  /* ---------- i18n ---------- */
+  var lang = VB.lang || "en";
+  try { lang = localStorage.getItem("vb-lang") || lang; } catch (e) {}
+  var DICT = window.VB_I18N || { en: {} };
+  function t(key) { return (DICT[lang] && DICT[lang][key]) || (DICT.en && DICT.en[key]) || key; }
+  document.documentElement.lang = lang;
+
+  /* ---------- formatting ---------- */
+  function inr(n) {
+    if (n >= 10000000) return "₹ " + (n / 10000000).toFixed(2).replace(/\.?0+$/, "") + " Cr";
+    if (n >= 100000) return "₹ " + (n / 100000).toFixed(2).replace(/\.?0+$/, "") + " Lakh";
+    return "₹ " + n.toLocaleString("en-IN");
+  }
+  function inrFull(n) { return "₹ " + Math.round(n).toLocaleString("en-IN"); }
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]; }); }
+  var TYPE_LABEL = { plot: "Plot", villa: "Villa / House", apartment: "Apartment", commercial: "Commercial" };
+
+  /* ---------- contact helpers ---------- */
+  var tel = isSet(VB.phoneDigits) ? "tel:+" + VB.phoneDigits.replace(/\D/g, "") : "";
+  var waNum = isSet(VB.whatsappDigits) ? VB.whatsappDigits.replace(/\D/g, "") : "";
+  function waLink(text) { return "https://wa.me/" + waNum + "?text=" + encodeURIComponent(text); }
+  function mailLink(subject, body) { return "mailto:" + VB.email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body); }
+
+  /* ---------- header / footer ---------- */
+  var NAV = [["#/", "home", "nav.home"], ["#/properties", "properties", "nav.properties"], ["#/buy", "buy", "nav.buy"],
+    ["#/sell", "sell", "nav.sell"], ["#/construction", "construction", "nav.construction"], ["#/about", "about", "nav.about"], ["#/contact", "contact", "nav.contact"]];
+
+  function brand() {
+    return '<a class="brand" href="#/" aria-label="' + esc(VB.company) + ' home"><span class="brand-mark" aria-hidden="true">VB</span>' +
+      '<span class="brand-text"><b>Vastu Bhoomi</b><small>Developers</small></span></a>';
+  }
+
+  function renderChrome() {
+    var page = document.body.getAttribute("data-page") || "";
+    var h = $("#site-header");
+    if (h) {
+      var links = NAV.map(function (n) {
+        var cur = (n[1] === page || (page === "property" && n[1] === "properties"));
+        return '<li><a href="' + n[0] + '"' + (cur ? ' class="active" aria-current="page"' : "") + ">" + esc(t(n[2])) + "</a></li>";
+      }).join("");
+      h.className = "site-header";
+      h.innerHTML = '<div class="wrap nav">' + brand() +
+        '<nav id="menu" aria-label="Main"><ul>' + links + "</ul></nav>" +
+        '<a class="btn btn-green btn-sm" href="#/contact">' + esc(t("nav.cta")) + "</a>" +
+        '<button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button></div>';
+      var burger = $(".burger", h), menu = $("#menu", h);
+      burger.addEventListener("click", function () {
+        var open = menu.classList.toggle("open");
+        burger.setAttribute("aria-expanded", open ? "true" : "false");
+      });
+      $$("a", menu).forEach(function (a) { a.addEventListener("click", function () { menu.classList.remove("open"); burger.setAttribute("aria-expanded", "false"); }); });
+      var onScroll = function () { h.classList.toggle("scrolled", window.scrollY > 8); };
+      onScroll(); window.addEventListener("scroll", onScroll, { passive: true });
+    }
+
+    var f = $("#site-footer");
+    if (f) {
+      var contact = "";
+      if (isSet(VB.phoneDisplay)) contact += "<li>" + (tel ? '<a href="' + tel + '">' + esc(VB.phoneDisplay) + "</a>" : esc(VB.phoneDisplay)) + "</li>";
+      if (isSet(VB.email)) contact += '<li><a href="mailto:' + esc(VB.email) + '">' + esc(VB.email) + "</a></li>";
+      if (isSet(VB.address)) contact += "<li>" + esc(VB.address) + "</li>";
+      if (isSet(VB.hours)) contact += "<li>" + esc(VB.hours) + "</li>";
+      if (!contact) contact = '<li><a href="#/contact">Send us an enquiry</a></li>';
+      var soc = "";
+      ["instagram", "facebook", "youtube", "linkedin"].forEach(function (k) {
+        if (VB.social && isSet(VB.social[k])) soc += '<li><a href="' + esc(VB.social[k]) + '" target="_blank" rel="noopener">' + k.charAt(0).toUpperCase() + k.slice(1) + "</a></li>";
+      });
+      f.className = "site-footer";
+      f.innerHTML = '<div class="wrap"><div class="foot"><div>' + brand() +
+        '<p style="margin-top:18px;max-width:34ch">' + esc(t("foot.about")) + "</p></div>" +
+        "<div><h5>" + esc(t("foot.explore")) + "</h5><ul>" + NAV.map(function (n) { return '<li><a href="' + n[0] + '">' + esc(t(n[2])) + "</a></li>"; }).join("") + "</ul></div>" +
+        "<div><h5>" + esc(t("foot.services")) + '</h5><ul><li><a href="#/properties?type=plot">' + esc(t("foot.plots")) + '</a></li><li><a href="#/properties?type=villa">' + esc(t("foot.residential")) +
+        '</a></li><li><a href="#/properties?type=commercial">' + esc(t("foot.commercial")) + '</a></li><li><a href="#/construction">' + esc(t("foot.construction")) + "</a></li></ul></div>" +
+        "<div><h5>" + esc(t("foot.contact")) + "</h5><ul>" + contact + soc + "</ul></div></div>" +
+        '<div class="legal"><span>© ' + new Date().getFullYear() + " " + esc(VB.company) + ". " + esc(t("foot.rights")) + "</span>" +
+        (isSet(VB.rera) ? "<span>RERA Reg. No.: " + esc(VB.rera) + "</span>" : "") + "</div>" +
+        '<p style="font-size:.75rem;margin-top:14px;max-width:90ch;opacity:.7">' + esc(t("foot.disclaimer")) + "</p></div>";
+    }
+
+    if (waNum) {
+      var w = document.createElement("a");
+      w.className = "wa-fab"; w.target = "_blank"; w.rel = "noopener";
+      w.href = waLink("Hello " + VB.company + ", I would like to know more about your properties.");
+      w.textContent = "WhatsApp us";
+      document.body.appendChild(w);
+    }
+
+    // brand JSON-LD (only fields that are set)
+    var ld = { "@context": "https://schema.org", "@type": "RealEstateAgent", name: VB.company };
+    if (isSet(VB.siteUrl)) ld.url = VB.siteUrl;
+    if (isSet(VB.phoneDisplay)) ld.telephone = VB.phoneDisplay;
+    if (isSet(VB.email)) ld.email = VB.email;
+    if (isSet(VB.address)) ld.address = { "@type": "PostalAddress", streetAddress: VB.address };
+    var s = document.createElement("script"); s.type = "application/ld+json"; s.textContent = JSON.stringify(ld); document.head.appendChild(s);
+  }
+
+  /* ---------- reveal on scroll ---------- */
+  var io = null;
+  function observe(root) {
+    var els = $$(".rv:not(.in)", root);
+    if (!("IntersectionObserver" in window)) { els.forEach(function (e) { e.classList.add("in"); }); return; }
+    if (!io) io = new IntersectionObserver(function (en) { en.forEach(function (x) { if (x.isIntersecting) { x.target.classList.add("in"); io.unobserve(x.target); } }); }, { threshold: 0.12 });
+    els.forEach(function (e) { io.observe(e); });
+  }
+
+  /* ---------- listing cards ---------- */
+  function perSqft(p) { return p.type === "plot" ? " · " + inrFull(p.price / p.area) + "/sq ft" : ""; }
+  function art(p) { return p.photos && p.photos.length ? '<img src="' + esc(p.photos[0]) + '" alt="' + esc(p.title) + '" style="width:100%;height:100%;object-fit:cover">' : window.VBArt.svg(p.type, p.art); }
+  function card(p) {
+    var meta = '<span><b>' + p.area.toLocaleString("en-IN") + "</b> sq ft</span>";
+    if (p.beds) meta += "<span><b>" + p.beds + "</b> bed</span>";
+    if (p.baths && p.type !== "plot") meta += "<span><b>" + p.baths + "</b> bath</span>";
+    meta += "<span>" + esc(p.facing) + " facing</span>";
+    return '<article class="prop rv"><a class="thumb" href="#/property?id=' + encodeURIComponent(p.id) + '" aria-label="' + esc(p.title) + '">' + art(p) +
+      '<span class="tag">' + esc(TYPE_LABEL[p.type] || p.type) + "</span>" + (p.sample ? '<span class="sample">Sample</span>' : "") + "</a>" +
+      '<div class="body"><div class="price">' + inr(p.price) + '</div><h3><a href="#/property?id=' + encodeURIComponent(p.id) + '">' + esc(p.title) + "</a></h3>" +
+      '<p class="loc">' + esc(p.locality) + " · " + esc(p.status) + "</p>" +
+      '<div class="meta">' + meta + '</div><a class="link" href="#/property?id=' + encodeURIComponent(p.id) + '">View details</a></div></article>';
+  }
+
+  /* ---------- notice ---------- */
+  function sampleNotice() {
+    return VB.showSampleNotice && LISTINGS.some(function (l) { return l.sample; })
+      ? '<div class="banner">These are sample listings shown for layout purposes. Prices, locations and details are placeholders, not real offers.</div>' : "";
+  }
+
+  /* ---------- home ---------- */
+  function initHome() {
+    var heroArt = $("#hero-art"); if (heroArt) heroArt.innerHTML = window.VBArt.hero();
+    var feat = $("#featured");
+    if (feat) {
+      var pick = ["sample-plot-01", "sample-villa-01", "sample-apt-01"];
+      var list = LISTINGS.filter(function (l) { return l.sample ? pick.indexOf(l.id) > -1 : true; }).slice(0, 3);
+      feat.innerHTML = list.map(card).join("");
+      var n = $("#featured-notice"); if (n) n.innerHTML = sampleNotice();
+    }
+    var sf = $("#home-search");
+    if (sf && !sf.__b && (sf.__b = 1)) sf.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var q = new URLSearchParams();
+      ["q", "type", "budget"].forEach(function (k) { var v = sf.elements[k].value; if (v) q.set(k, v); });
+      location.href = "#/properties" + (q.toString() ? "?" + q.toString() : "");
+    });
+    var art1 = $("#home-art"); if (art1) art1.innerHTML = window.VBArt.svg("villa", 4);
+  }
+
+  /* ---------- properties ---------- */
+  var BUDGETS = { "": [0, Infinity], u25: [0, 2500000], "25-50": [2500000, 5000000], "50-100": [5000000, 10000000], o100: [10000000, Infinity] };
+  function initListing() {
+    var grid = $("#results"); if (!grid) return;
+    var f = { q: $("#f-q"), type: $("#f-type"), budget: $("#f-budget"), sort: $("#f-sort") };
+    var params = hashParams();
+    Object.keys(f).forEach(function (k) { f[k].value = params.get(k) || (k === "sort" ? "new" : ""); });
+    if (grid.__run) { grid.__run(); return; }
+    var n = $("#listing-notice"); if (n) n.innerHTML = sampleNotice();
+
+    function run() {
+      var q = f.q.value.trim().toLowerCase(), type = f.type.value, b = BUDGETS[f.budget.value] || BUDGETS[""];
+      var out = LISTINGS.filter(function (p) {
+        if (type && p.type !== type) return false;
+        if (p.price < b[0] || p.price >= b[1]) return false;
+        if (q && (p.title + " " + p.locality + " " + p.type + " " + p.facing).toLowerCase().indexOf(q) < 0) return false;
+        return true;
+      });
+      var s = f.sort.value;
+      if (s === "low") out.sort(function (a, c) { return a.price - c.price; });
+      if (s === "high") out.sort(function (a, c) { return c.price - a.price; });
+      if (s === "area") out.sort(function (a, c) { return c.area - a.area; });
+      $("#count").textContent = out.length + (out.length === 1 ? " property" : " properties");
+      grid.innerHTML = out.length ? out.map(card).join("") :
+        '<div class="empty" style="grid-column:1/-1"><h3>No matching properties</h3><p style="margin:8px 0 20px">Try widening your filters, or tell us what you need and we will look for it.</p><a class="btn btn-green" href="#/contact">Tell us your requirement</a></div>';
+      observe(grid);
+      var q2 = new URLSearchParams();
+      Object.keys(f).forEach(function (k) { if (f[k].value && !(k === "sort" && f[k].value === "new")) q2.set(k, f[k].value); });
+      try { history.replaceState(null, "", location.pathname + location.search + "#/properties" + (q2.toString() ? "?" + q2.toString() : "")); } catch (e) {}
+    }
+    Object.keys(f).forEach(function (k) { f[k].addEventListener(k === "q" ? "input" : "change", run); });
+    $("#f-reset").addEventListener("click", function () { f.q.value = ""; f.type.value = ""; f.budget.value = ""; f.sort.value = "new"; run(); });
+    grid.__run = run;
+    run();
+  }
+
+  /* ---------- property detail ---------- */
+  function initDetail() {
+    var box = $("#detail"); if (!box) return;
+    var id = hashParams().get("id");
+    var p = LISTINGS.filter(function (x) { return x.id === id; })[0];
+    if (!p) {
+      box.innerHTML = '<div class="empty"><h3>Property not found</h3><p style="margin:8px 0 20px">This listing may have been sold or removed.</p><a class="btn btn-green" href="#/properties">Browse all properties</a></div>';
+      return;
+    }
+    document.title = p.title + " | " + VB.company;
+    var md = $('meta[name="description"]'); if (md) md.setAttribute("content", p.title + " in " + p.locality + ". " + inr(p.price) + ". Enquire with " + VB.company + ".");
+    var crumb = $("#crumb-title"); if (crumb) crumb.textContent = p.title;
+    var h1 = $("#detail-h1"); if (h1) h1.textContent = p.title;
+    var sub = $("#detail-sub"); if (sub) sub.textContent = p.locality;
+
+    var facts = [["Type", TYPE_LABEL[p.type]], ["Status", p.status], ["Area", p.area.toLocaleString("en-IN") + " sq ft"], ["Facing", p.facing]];
+    if (p.beds) facts.push(["Bedrooms", p.beds]);
+    if (p.baths && p.type !== "plot") facts.push(["Bathrooms", p.baths]);
+    if (p.type === "plot") facts.push(["Rate", inrFull(p.price / p.area) + " / sq ft"]);
+    var photos = (p.photos && p.photos.length > 1) ? '<div class="grid g3" style="margin-top:16px">' + p.photos.slice(1).map(function (u) { return '<img src="' + esc(u) + '" alt="" style="border-radius:6px;aspect-ratio:4/3;object-fit:cover;width:100%">'; }).join("") + "</div>" : "";
+
+    box.innerHTML = '<div class="detail"><div>' +
+      (p.sample ? '<div class="banner">Sample listing: details and price are placeholders.</div>' : "") +
+      '<div class="art-frame">' + art(p) + "</div>" + photos +
+      '<div class="price" style="margin-top:28px;font-size:2.4rem">' + inr(p.price) + (p.type === "plot" ? '<span style="font:500 1rem var(--sans);color:var(--muted)">' + perSqft(p) + "</span>" : "") + "</div>" +
+      '<div class="facts">' + facts.map(function (x) { return "<div><small>" + x[0] + "</small><b>" + esc(x[1]) + "</b></div>"; }).join("") + "</div>" +
+      "<h3>About this property</h3><p style=\"margin:10px 0 24px;max-width:64ch\">" + esc(p.description) + "</p>" +
+      "<h3>Highlights</h3><ul class=\"ticks\" style=\"margin-top:10px\">" + p.highlights.map(function (h) { return "<li>" + esc(h) + "</li>"; }).join("") + "</ul>" +
+      '<p class="note" style="margin-top:20px">Please verify title documents, approvals and measurements before booking. We are happy to walk you through the paperwork.</p>' +
+      '</div><aside class="sticky"><div class="form-card"><h3>Enquire about this property</h3><p>Leave your details and we will get back to you.</p>' +
+      enquiryForm("Property enquiry: " + p.title, false, { "Property": p.title + " (" + p.locality + ")", "Listed price": inr(p.price) }) +
+      '</div><div class="form-card" style="margin-top:24px"><h4>Estimate your EMI</h4>' + emiForm(p.price) + "</div></aside></div>";
+
+    var ld = { "@context": "https://schema.org", "@type": "RealEstateListing", name: p.title, description: p.description, offers: { "@type": "Offer", price: p.price, priceCurrency: "INR" } };
+    if (!p.sample) { var s = document.createElement("script"); s.type = "application/ld+json"; s.textContent = JSON.stringify(ld); document.head.appendChild(s); }
+    initForms(box); initEmi(box); observe(box);
+  }
+
+  /* ---------- enquiry forms ---------- */
+  function enquiryForm(subject, withInterest, hidden) {
+    var h = '<form class="enq" data-subject="' + esc(subject) + '" novalidate>';
+    Object.keys(hidden || {}).forEach(function (k) { h += '<input type="hidden" name="' + esc(k) + '" value="' + esc(hidden[k]) + '">'; });
+    h += '<div class="form-grid">' +
+      '<div class="field full"><label for="n-' + subject.length + '">Full name</label><input id="n-' + subject.length + '" name="Name" required autocomplete="name"><span class="err"></span></div>' +
+      '<div class="field full"><label for="p-' + subject.length + '">Mobile number</label><input id="p-' + subject.length + '" name="Phone" type="tel" inputmode="tel" required autocomplete="tel" placeholder="10-digit mobile number"><span class="err"></span></div>' +
+      '<div class="field full"><label for="m-' + subject.length + '">Message (optional)</label><textarea id="m-' + subject.length + '" name="Message" style="min-height:80px"></textarea></div>' +
+      '<input class="hp" name="Website" tabindex="-1" autocomplete="off" aria-hidden="true">' +
+      '<div class="full"><button class="btn btn-green" type="submit" style="width:100%">Send Enquiry</button></div></div></form>';
+    return h;
+  }
+
+  function initForms(root) {
+    $$("form[data-subject]", root || document).forEach(function (form) {
+      if (form.getAttribute("data-bound")) return; form.setAttribute("data-bound", "1");
+      var result = document.createElement("div"); result.className = "result"; result.setAttribute("aria-live", "polite"); form.parentNode.insertBefore(result, form.nextSibling);
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        if (form.elements.Website && form.elements.Website.value) return; // honeypot
+        var ok = true;
+        $$(".err", form).forEach(function (x) { x.textContent = ""; });
+        $$("[required]", form).forEach(function (el) {
+          var err = el.parentNode.querySelector(".err"), v = el.value.trim();
+          if (!v) { if (err) err.textContent = "This field is required."; ok = false; }
+          else if (el.type === "tel" && !/^(\+?91[\s-]?)?[6-9]\d{9}$/.test(v.replace(/[\s-]/g, "").replace(/^0/, ""))) { if (err) err.textContent = "Enter a valid 10-digit Indian mobile number."; ok = false; }
+          else if (el.type === "email" && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v)) { if (err) err.textContent = "Enter a valid email address."; ok = false; }
+        });
+        if (!ok) { var first = $(".err:not(:empty)", form); if (first) first.parentNode.querySelector("input,select,textarea").focus(); return; }
+
+        var lines = [(form.getAttribute("data-subject") || "Enquiry") + " (via website)", ""];
+        $$("input,select,textarea", form).forEach(function (el) {
+          if (!el.name || el.name === "Website" || !String(el.value).trim()) return;
+          lines.push(el.name + ": " + el.value.trim());
+        });
+        var text = lines.join("\n"), subject = form.getAttribute("data-subject") + " — " + VB.company;
+
+        function showPanel(sent) {
+          var h = sent ? "<h4>Thank you. We have received your enquiry.</h4><p>Our team will contact you shortly.</p>" :
+            "<h4>Your enquiry is ready</h4><p>Send it to us in one tap. It opens in your app with everything filled in.</p><pre></pre><div class=\"row\"></div>";
+          result.innerHTML = h; result.classList.add("show");
+          if (!sent) {
+            $("pre", result).textContent = text;
+            var row = $(".row", result);
+            if (waNum) row.insertAdjacentHTML("beforeend", '<a class="btn btn-green btn-sm" target="_blank" rel="noopener" href="' + esc(waLink(text)) + '">Send on WhatsApp</a>');
+            if (isSet(VB.email)) row.insertAdjacentHTML("beforeend", '<a class="btn btn-line btn-sm" href="' + esc(mailLink(subject, text)) + '">Send by email</a>');
+            var cp = document.createElement("button"); cp.type = "button"; cp.className = "btn btn-line btn-sm"; cp.textContent = "Copy text";
+            cp.addEventListener("click", function () { (navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject()).then(function () { cp.textContent = "Copied"; }, function () { cp.textContent = "Select and copy above"; }); });
+            row.appendChild(cp);
+            if (tel) row.insertAdjacentHTML("beforeend", '<a class="btn btn-line btn-sm" href="' + tel + '">Call us</a>');
+            if (!waNum && !isSet(VB.email)) result.insertAdjacentHTML("beforeend", '<p class="note">Please copy this text and share it with us using the contact details on this page.</p>');
+          }
+          result.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        }
+
+        if (isSet(VB.formEndpoint)) {
+          var btn = $("button[type=submit]", form); btn.disabled = true; btn.textContent = "Sending…";
+          var fd = new FormData(form); fd.append("_subject", subject);
+          fetch(VB.formEndpoint, { method: "POST", body: fd, headers: { Accept: "application/json" } })
+            .then(function (r) { if (!r.ok) throw new Error("bad"); showPanel(true); form.reset(); })
+            .catch(function () { showPanel(false); })
+            .then(function () { btn.disabled = false; btn.textContent = "Send Enquiry"; });
+        } else { showPanel(false); }
+      });
+    });
+  }
+
+  /* ---------- EMI ---------- */
+  function emiForm(price) {
+    return '<form class="emi" data-emi onsubmit="return false"><div class="form-grid" style="margin-top:14px">' +
+      '<div class="field full"><label>Property price (₹)</label><input name="amt" type="number" min="0" step="10000" value="' + (price || 5000000) + '"></div>' +
+      '<div class="field"><label>Down payment (%)</label><input name="down" type="number" min="0" max="90" value="20"></div>' +
+      '<div class="field"><label>Interest rate (% p.a.)</label><input name="rate" type="number" min="1" max="25" step="0.05" value="8.75"></div>' +
+      '<div class="field full"><label>Loan tenure (years)</label><input name="yrs" type="number" min="1" max="35" value="20"></div></div>' +
+      '<div class="emi-out"><span>Estimated monthly EMI</span><b data-out>—</b><span data-sub></span></div>' +
+      '<p class="note">Indicative only. The interest rate shown is an example, not an offer. Actual rates depend on your lender.</p></form>';
+  }
+  function initEmi(root) {
+    $$("[data-emi]", root || document).forEach(function (f) {
+      if (f.getAttribute("data-bound")) return; f.setAttribute("data-bound", "1");
+      function calc() {
+        var a = +f.elements.amt.value, d = +f.elements.down.value, r = +f.elements.rate.value / 1200, n = +f.elements.yrs.value * 12;
+        var P = a * (1 - d / 100), out = $("[data-out]", f), sub = $("[data-sub]", f);
+        if (!(P > 0 && n > 0 && r >= 0)) { out.textContent = "—"; sub.textContent = ""; return; }
+        var emi = r === 0 ? P / n : P * r * Math.pow(1 + r, n) / (Math.pow(1 + r, n) - 1);
+        out.textContent = inrFull(emi);
+        sub.textContent = "Loan " + inr(P) + " · Total interest " + inr(emi * n - P);
+      }
+      f.addEventListener("input", calc); calc();
+    });
+  }
+
+  /* ---------- router (single-file site) ---------- */
+  var VIEWS = {"properties": {"t": "Properties for Sale | Vastu Bhoomi Developers", "d": "Browse plots, villas, apartments and commercial property listed by Vastu Bhoomi Developers. Filter by type and budget."}, "property": {"t": "Property Details | Vastu Bhoomi Developers", "d": "Property details, price and enquiry form from Vastu Bhoomi Developers."}, "buy": {"t": "Buy Property | Plots, Homes & Commercial | Vastu Bhoomi Developers", "d": "Buying plots, homes or commercial property? Learn what to check, estimate your EMI and enquire with Vastu Bhoomi Developers."}, "sell": {"t": "Sell Your Property | Vastu Bhoomi Developers", "d": "Want to sell land, a house or a commercial property? List it with Vastu Bhoomi Developers and reach genuine buyers."}, "construction": {"t": "Construction Services | Vastu Bhoomi Developers", "d": "Residential and commercial construction services: houses, duplexes, commercial buildings and renovations. Request a quotation."}, "about": {"t": "About Us | Vastu Bhoomi Developers", "d": "Vastu Bhoomi Developers is a real estate company dealing in land, residential and commercial property, and construction."}, "contact": {"t": "Contact Us | Vastu Bhoomi Developers", "d": "Contact Vastu Bhoomi Developers to enquire about plots, homes, commercial property or construction."}, "home": {"t": "Vastu Bhoomi Developers | Plots, Homes & Construction in India", "d": "Vastu Bhoomi Developers deals in residential plots, homes and commercial property, with construction services. Browse properties and enquire online."}};
+  function route() {
+    var raw = location.hash || "";
+    if (raw && raw.indexOf("#/") !== 0) return; // in-page anchors such as the skip link
+    var name = raw.replace(/^#\/?/, "").split("?")[0] || "home";
+    if (!VIEWS[name]) name = "home";
+    $$(".view").forEach(function (v) { v.hidden = v.getAttribute("data-view") !== name; });
+    document.body.setAttribute("data-page", name);
+    document.title = VIEWS[name].t;
+    var md = $('meta[name="description"]'); if (md) md.setAttribute("content", VIEWS[name].d);
+    $$("#site-header nav a").forEach(function (a) {
+      var h = a.getAttribute("href"), cur = h === "#/" + name || (name === "home" && h === "#/") || (name === "property" && h === "#/properties");
+      a.classList.toggle("active", cur);
+      if (cur) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+    });
+    if (name === "home") initHome();
+    if (name === "properties") initListing();
+    if (name === "property") initDetail();
+    window.scrollTo(0, 0);
+  }
+
+  /* ---------- boot ---------- */
+  function boot() {
+    renderChrome();
+    route();
+    window.addEventListener("hashchange", route);
+    $$("[data-emi-slot]").forEach(function (s) { s.innerHTML = emiForm(+s.getAttribute("data-emi-slot") || 5000000); });
+    $$("[data-art]").forEach(function (s) { var p = s.getAttribute("data-art").split(":"); s.innerHTML = window.VBArt.svg(p[0], +p[1] || 1); });
+    $$("[data-config]").forEach(function (el) { // show config values where available
+      var k = el.getAttribute("data-config"), v = VB[k];
+      if (isSet(v)) { el.textContent = v; if (el.tagName === "A") el.href = k === "email" ? "mailto:" + v : (k === "phoneDisplay" && tel ? tel : (k === "mapUrl" ? v : el.href)); }
+      else { var w = el.closest("[data-hide-empty]"); if (w) w.classList.add("hidden"); }
+    });
+    initForms(document); initEmi(document); observe(document);
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot); else boot();
+})();
+
+</script>
+</body>
+</html>
